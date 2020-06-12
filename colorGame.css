@@ -1,0 +1,99 @@
+body{
+	background-color: #333333;
+	text-align: center;
+	margin: 0;
+	font-family: "calibri";
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+#container{
+	padding-top:20px;
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+.square{
+
+	padding-top: 30%;
+	float: left;
+	width: 30%;
+	margin: 1.66%;
+	background-color: white;
+	color: purple;
+	border-radius: 15px;
+	transition: background 0.6s;
+	--webkit-transition: background 0.6s;
+}
+
+#message{
+	color: black;
+	font-size: inherit;
+	display: inline-block;
+	width: 20%;
+}
+
+h1{
+	background-color: steelblue;
+	margin:0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	text-align: center;
+}
+
+#stripe{
+	text-align: center;
+	background-color: white;
+	height: 30px;
+}
+
+#reset{
+	border: none;
+	background: none;
+	height: inherit;
+
+}
+
+#reset:hover{
+	background: steelblue;
+	transition: all 0.6s;
+	--webkit-transition: all 0.6s;
+	color: white;
+}
+
+.selected{
+	background-color: steelblue;
+	border:none;
+	color: white;
+}
+
+#easyBtn:hover{
+	background-color: steelblue;
+	border:none;
+	color: white;
+	--webkit-transition: all 0.6s;
+	transition: all 0.6s;
+}
+
+#hardBtn:hover{
+	background-color: steelblue;
+	border:none;
+	color: white;
+	--webkit-transition: all 0.6s;
+	transition: all 0.6s;
+}
+
+#displayColor{
+	font-size: 1.4em;
+}
+
+button{
+	height: 100%;
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	color: steelblue;
+	letter-spacing: 1px;
+	outline: none;
+}
